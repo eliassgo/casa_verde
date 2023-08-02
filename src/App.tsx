@@ -2,13 +2,11 @@ import EstiloGlobal from './styles/styles'
 import { Container } from './styles/styles'
 import Menu from './components/Menu'
 import AssinaturaNewsletter from './components/Home'
-import ImagemHome from './components/ImageHome'
 
 function App() {
   return (
     <>
       <EstiloGlobal />
-      <ImagemHome />
       <Container>
         <Menu />
         <AssinaturaNewsletter />

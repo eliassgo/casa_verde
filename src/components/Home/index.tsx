@@ -2,16 +2,15 @@ import * as S from './styles'
 import { T } from '../Titulos/styles'
 import { P } from '../Paragrafo/styles'
 import { Fonts } from '../../styles/styles'
-import Imagem from '../../Media/imagem-hero.png'
 
 const AssinaturaNewsletter = () => (
   <S.Main>
     <S.Div>
       <P fontSize={Fonts.fs4}>Sua casa com as</P>
     </S.Div>
-    <S.Div>
+    <S.DivTitulo>
       <T fontSize={Fonts.fs1}>melhores plantas</T>
-    </S.Div>
+    </S.DivTitulo>
     <S.Div>
       <P fontSize={Fonts.fs5}>
         Encontre aqui uma vasta seleção de plantas para decorar a sua casa e
@@ -23,7 +22,6 @@ const AssinaturaNewsletter = () => (
       <S.Input type="text" placeholder="insira seu e-mail" />
       <S.Button type="submit">Assinar newsletter</S.Button>
     </S.InputContainer>
-    <S.Imagem src={Imagem} />
   </S.Main>
 )
 

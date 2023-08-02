@@ -5,18 +5,24 @@ const Menu = () => (
     <S.Logo src={logo} alt="Logo" />
     <S.Informacoes>
       <S.InformacoesContente>
-        <li>Como Fazer</li>
         <li>
-          <S.Span>/</S.Span>Ofertas
+          <S.Link href="/">Como Fazer</S.Link>
         </li>
         <li>
-          <S.Span>/</S.Span>Depoimentos
+          <S.Span>/</S.Span>
+          <S.Link href="/">Ofertas</S.Link>
         </li>
         <li>
-          <S.Span>/</S.Span>Videos
+          <S.Span>/</S.Span>
+          <S.Link href="/">Depoimentos</S.Link>
         </li>
         <li>
-          <S.Span>/</S.Span>Meu Carrinho
+          <S.Span>/</S.Span>
+          <S.Link href="/">Vídeos</S.Link>
+        </li>
+        <li>
+          <S.Span>/</S.Span>
+          <S.Link href="/">Meu Carrinho</S.Link>
         </li>
       </S.InformacoesContente>
     </S.Informacoes>
